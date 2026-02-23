@@ -4,6 +4,8 @@
 
 Ph.D. in Synthetic Biology | Building software at the intersection of biology, data, and automation.
 
+![GitHub Contributions](https://ghchart.rshah.org/SynBioExplorer)
+
 ---
 
 ## Published Research Tools

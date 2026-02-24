@@ -6,7 +6,11 @@ Ph.D. in Synthetic Biology | Building software at the intersection of biology, d
 
 [![Email](https://img.shields.io/badge/Email-felix.meier%40mq.edu.au-blue)](mailto:felix.meier@mq.edu.au) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Felix%20Meier-0A66C2?logo=linkedin)](https://www.linkedin.com/in/felixjonathanmeier/) [![ORCID](https://img.shields.io/badge/ORCID-0009--0000--2858--6259-A6CE39?logo=orcid)](https://orcid.org/0009-0000-2858-6259)
 
-![GitHub Contributions](https://ghchart.rshah.org/SynBioExplorer)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=SynBioExplorer&theme=github-dark&hide_border=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=SynBioExplorer&theme=github-light&hide_border=true" />
+  <img alt="GitHub Contributions" src="https://github-readme-activity-graph.vercel.app/graph?username=SynBioExplorer&theme=github-light&hide_border=true" />
+</picture>
 
 ---
 

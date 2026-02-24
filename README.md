@@ -59,14 +59,55 @@ Ph.D. in Synthetic Biology | Building software at the intersection of biology, d
 
 ## Tech Stack
 
-**Languages:** Python, TypeScript, JavaScript, R, Shell, Swift, SQL
-**Cloud:** AWS (Lambda, DynamoDB, S3, Cognito, EventBridge, API Gateway, Amplify, CloudFormation), GitHub Actions CI/CD
-**AI/ML:** Claude Code (hooks, MCP servers, custom agents, skills), LangGraph, LangChain, ChromaDB, Google Gemini, OpenAI, multi-agent systems, NLP
-**Frontend:** React, Next.js, Electron, Tailwind CSS, Vite
-**Backend:** FastAPI, PostgreSQL, Redis, Node.js
-**Bioinformatics:** Dorado, Flye, Minimap2, NanoPlot, Porechop, QUAST | Salmon, fastp, SortMeRNA, Bowtie2, BWA, samtools, deepTools, gffread, FastQC, MultiQC, bcftools, snpEff, Bedtools | exonerate, MAFFT, BioPython, pysam, AlphaFold | DESeq2, edgeR, tximport, clusterProfiler, complexHeatmap, EnhancedVolcano, goseq, gseapy, COBRA | Opentrons API
-**Data & Viz:** Plotly, Jupyter, Seaborn, Matplotlib, Dash, Flask
-**DevOps:** Docker, tmux, git worktrees
+### Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat&logo=gnubash&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-F05138?style=flat&logo=swift&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+
+### Cloud & DevOps
+![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat&logo=awslambda&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat&logo=amazondynamodb&logoColor=white)
+![S3](https://img.shields.io/badge/S3-569A31?style=flat&logo=amazons3&logoColor=white)
+![Cognito](https://img.shields.io/badge/Cognito-DD344C?style=flat&logo=amazonaws&logoColor=white)
+![CloudFormation](https://img.shields.io/badge/CloudFormation-FF4F8B?style=flat&logo=amazonaws&logoColor=white)
+![Amplify](https://img.shields.io/badge/Amplify-FF9900?style=flat&logo=awsamplify&logoColor=white)
+![API Gateway](https://img.shields.io/badge/API_Gateway-FF4F8B?style=flat&logo=amazonapigateway&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+
+### AI / ML
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat&logo=anthropic&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F61?style=flat)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
+
+### Frontend & Backend
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-47848F?style=flat&logo=electron&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+
+### Bioinformatics
+![Dorado](https://img.shields.io/badge/Dorado-00828C?style=flat) ![Flye](https://img.shields.io/badge/Flye-6B8E23?style=flat) ![Minimap2](https://img.shields.io/badge/Minimap2-6B8E23?style=flat) ![NanoPlot](https://img.shields.io/badge/NanoPlot-00828C?style=flat) ![Porechop](https://img.shields.io/badge/Porechop-00828C?style=flat) ![QUAST](https://img.shields.io/badge/QUAST-6B8E23?style=flat) ![Salmon](https://img.shields.io/badge/Salmon-FA8072?style=flat) ![fastp](https://img.shields.io/badge/fastp-4B8BBE?style=flat) ![SortMeRNA](https://img.shields.io/badge/SortMeRNA-4B8BBE?style=flat) ![Bowtie2](https://img.shields.io/badge/Bowtie2-4B8BBE?style=flat) ![BWA](https://img.shields.io/badge/BWA-4B8BBE?style=flat) ![samtools](https://img.shields.io/badge/samtools-4B8BBE?style=flat) ![deepTools](https://img.shields.io/badge/deepTools-4B8BBE?style=flat) ![FastQC](https://img.shields.io/badge/FastQC-4B8BBE?style=flat) ![MultiQC](https://img.shields.io/badge/MultiQC-4B8BBE?style=flat) ![bcftools](https://img.shields.io/badge/bcftools-8B4513?style=flat) ![snpEff](https://img.shields.io/badge/snpEff-8B4513?style=flat) ![Bedtools](https://img.shields.io/badge/Bedtools-4B8BBE?style=flat) ![exonerate](https://img.shields.io/badge/exonerate-8B6914?style=flat) ![MAFFT](https://img.shields.io/badge/MAFFT-8B6914?style=flat) ![BioPython](https://img.shields.io/badge/BioPython-3776AB?style=flat) ![pysam](https://img.shields.io/badge/pysam-3776AB?style=flat) ![AlphaFold](https://img.shields.io/badge/AlphaFold-4285F4?style=flat&logo=google&logoColor=white) ![DESeq2](https://img.shields.io/badge/DESeq2-276DC3?style=flat) ![edgeR](https://img.shields.io/badge/edgeR-276DC3?style=flat) ![tximport](https://img.shields.io/badge/tximport-276DC3?style=flat) ![clusterProfiler](https://img.shields.io/badge/clusterProfiler-276DC3?style=flat) ![complexHeatmap](https://img.shields.io/badge/complexHeatmap-276DC3?style=flat) ![EnhancedVolcano](https://img.shields.io/badge/EnhancedVolcano-276DC3?style=flat) ![goseq](https://img.shields.io/badge/goseq-276DC3?style=flat) ![gseapy](https://img.shields.io/badge/gseapy-3776AB?style=flat) ![COBRA](https://img.shields.io/badge/COBRA-3776AB?style=flat) ![Opentrons](https://img.shields.io/badge/Opentrons_API-00C2A0?style=flat)
+
+### Data & Visualization
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat)
+![Seaborn](https://img.shields.io/badge/Seaborn-444876?style=flat)
+![Dash](https://img.shields.io/badge/Dash-008DE4?style=flat&logo=plotly&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 
 ---
 

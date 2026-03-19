@@ -13,10 +13,11 @@ Ph.D. in Synthetic Biology | Building software at the intersection of biology, d
 
 | Project | Description | Language |
 |---------|-------------|----------|
-| [Welly](https://github.com/SynBioExplorer/Welly) | High-throughput microbial growth curve analysis from microplate data. Published in [*Bioinformatics Advances*, 2025](https://doi.org/10.1093/bioadv/vbaf038). | Python |
-| [SynBio NLP Analysis](https://github.com/SynBioExplorer/Navigating-the-frontier-of-Synthetic-Biology-An-AI-driven-platform-for-exploring-research-trends-an) | NLP platform mapping synthetic biology research trends, collaboration networks, and emerging themes. Published in [*ACS Synthetic Biology*, 2023](https://github.com/SynBioExplorer/SynBio_NLP_analysis). | Python |
+| [Welly](https://github.com/SynBioExplorer/Welly) | Web-based tool for high-throughput microbial growth curve analysis from 96- and 384-well microplate data. Computes maximum growth rate and area under the curve per well, aggregates across replicates, and generates interactive heatmaps and line graphs. Flask app with CSV/Excel upload and downloadable reports. Published in [*Bioinformatics Advances*, 2025](https://doi.org/10.1093/bioadv/vbaf038). | Python |
+| [SynBio NLP Analysis](https://github.com/SynBioExplorer/Navigating-the-frontier-of-Synthetic-Biology-An-AI-driven-platform-for-exploring-research-trends-an) | AI-driven analytics platform mapping the synthetic biology research landscape using NLP on publication corpora. Identifies emerging themes (metabolic engineering, CRISPR, genetic circuits, optogenetics), tracks temporal shifts over two decades, maps co-authorship collaboration networks across institutions and countries, and analyzes journal impact and geographic publication trends. Published in [*ACS Synthetic Biology*, 2023](https://doi.org/10.1021/acssynbio.3c00192). | Python |
 | [BackUpYourYeast](https://github.com/SynBioExplorer/BackUpYourYeast) | Addresses a critical limitation in SCRaMbLE (Synthetic Chromosome Rearrangement and Modification by loxP-mediated Evolution): loss of cell viability from essential gene deletions during genome rearrangements. Designed, synthesised, and validated a 181 kb linear essential neochromosome carrying backup copies of 75 essential genes from *S. cerevisiae* synXIV (Sc2.0 project) with telomerator linearization, CEN6 segregation, and orthogonal roxP recombination. Post-SCRaMbLE viability analysis, genomic analysis of 28 SCRaMbLEd strains revealing a consistent 29.7 kb *TOP2* deletion, and nucleosome occupancy modeling demonstrating an inverse relationship between nucleosome positioning and recombination frequency at loxP sites. Submitted to *Nucleic Acids Research* (under peer review). | Python |
 | [PulseALE](https://github.com/SynBioExplorer/PulseALE) | Investigates whether oscillating selection regimes in Adaptive Laboratory Evolution can help populations escape local fitness maxima on rugged landscapes. Evolved *S. cerevisiae* for growth on ethanol as sole carbon source over 63 days (~190 generations) under four regimes: continuous positive (ethanol), neutral (glucose pulses), alternative (glycerol pulses), and negative (5-FOA pulses). Neutral regime accumulated highest mutational burden (44.0 +/- 9.5) with 1.49-fold growth rate enhancement; positive correlation between mutation frequency and growth rate across all conditions (r = 0.834, p = 0.0007). Growth curve analysis, WGS variant calling (GATK/Delly), mutation sharing networks, and Wright-Fisher stochastic simulations. Under peer review. | Python |
+| RAIN *(private)* | Simplifying multiplex genome engineering in *S. cerevisiae* with intron-mediated Random Assembly and INtegration (RAIN). Nanopore long-read pipeline for mapping synthetic cassette insertions at Ty1 retrotransposon loci. De novo Flye assembly, split-alignment breakpoint detection, tandem daisy-chain resolution, confidence-scored Ty1 locus annotation (>6 kb unique flank requirement), and junction validation with read coverage. Submitted to *FEMS Yeast Research* (under peer review). | Python |
 
 ## AI & Multi-Agent Systems
 
@@ -33,7 +34,7 @@ Ph.D. in Synthetic Biology | Building software at the intersection of biology, d
 | [Psilocybe Proteomics](https://github.com/SynBioExplorer/magic-mushroom-proteomics) | Extraction and analysis of psilocybin biosynthesis genes from 71 *Psilocybe* species genomes using exonerate protein-to-genome alignment for AlphaFold and phylogenetics. | Python |
 | [Basejumper](https://github.com/SynBioExplorer/basejumper) | Desktop GUI pipeline for Oxford Nanopore sequencing: basecalling, demultiplexing, QC, de novo Flye assembly, and reference-based evaluation. | JavaScript |
 | [Pulsed Selection](https://github.com/SynBioExplorer/pulsed_selection) | Genomic analysis pipeline for yeast samples - QC, alignment, variant calling, and annotation using fastp, BWA, bcftools, and snpEff. | Shell |
-| RAIN *(private)* | Nanopore long-read pipeline for mapping RAIN (Random Assembly and INtegration) cassette insertions in *S. cerevisiae*. De novo Flye assembly, split-alignment breakpoint detection, tandem daisy-chain resolution at Ty1 loci, confidence-scored locus annotation, and junction validation with read coverage. | Python |
+| Automated NGS Pipeline *(private)* | End-to-end Nanopore sequencing analysis: GenBank-to-FASTA conversion, Minimap2 indexing and alignment, per-contig coverage statistics with pysam, SVIM-ASM structural variant detection (haploid mode), loxP site extraction and proximity analysis, gene overlap annotation, rearrangement classification, and Plotly visualization of coverage and SV metrics. | Python |
 | [Gene Retrieval from NCBI](https://github.com/SynBioExplorer/Gene-retrieval-from-NCBI) | Automated gene data retrieval from NCBI Entrez and integration with existing datasets. | Python |
 
 ## Computational Structural Biology / Protein Engineering
@@ -64,6 +65,12 @@ Ph.D. in Synthetic Biology | Building software at the intersection of biology, d
 
 | [Australian Income Calculator](https://github.com/SynBioExplorer/Australian-Income-Distribution-Calculator) | Interactive tool visualizing how your income compares to the Australian income distribution. | TypeScript |
 | [SoundScapeAnalyzer](https://github.com/SynBioExplorer/SoundScapeAnalyzer) | Audio analysis tool with BPM detection, key detection, and metadata extraction with a GUI for batch processing. | Python |
+
+## Other Projects
+
+| Project | Description | Language |
+|---------|-------------|----------|
+| GymCast *(private)* | Web-based gym class display system with synchronized workout stations for HIIT/circuit training. | TypeScript |
 
 ---
 
